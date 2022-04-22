@@ -74,8 +74,8 @@
 
 @media only screen and (max-width: 600px){
 
-  .banner-content p {
-    display: none;
+ .banner-content p {
+   display: none;
   }
   
 }

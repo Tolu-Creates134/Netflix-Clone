@@ -13,8 +13,9 @@ export const Banner = ({ fetchUrl }) => {
     const fetchMovie = async () => {
         const { data } = await instance.get(fetchUrl);
 
-        setMovie(data.results[14])
+        setMovie(data.results[15])
     }
+
 
     useEffect(() => {
         fetchMovie();
